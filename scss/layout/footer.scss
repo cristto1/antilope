@@ -1,0 +1,52 @@
+.footer-principal{
+    background-color: #fff2e5;
+    width: 100%;
+    height: 40px;
+}
+    
+    
+
+.redes-footer{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    padding: 9px 0 0 10px;
+
+    li{
+        padding: 5px;
+    }
+
+    img{
+        width: 13px;
+    }
+}
+
+.logo-footer{
+    padding: 5px 5px 0 0;
+    display: flex;
+    justify-content: right;
+
+    img{
+        width: 80px;
+    }
+}
+
+.copy{
+    width: 100%;
+    height: 13px;
+    background-color: #e8dbc5;
+
+    p{
+        padding-top: 2px;
+        text-align: center;
+        font-family: 'Bona Nova', serif;
+        font-size: 7px;
+    }
+}
+
+.footer-principal-2{
+    background-color: #fff5eb ;
+    width: 100%;
+    height: 40px;
+}
+

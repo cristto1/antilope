@@ -1,0 +1,175 @@
+/**** responsive 1024 ****/
+
+@media (min-width: 1024px){
+
+    
+    header{
+        height: 155px;
+    }
+    
+    .baner{
+        height: 155px;
+
+        nav{
+            width: 100%;
+            padding-top: 120px;
+        }
+    }
+        
+    .baner nav ul li{
+        font-size: 16px;
+    }
+    
+    /****logo y redes****/
+    
+    .logo{
+        width: 50%;
+        height: 88%;
+
+    }
+    
+    .redes{
+        left: 88%;
+    }
+    
+    .redes li{
+        padding: 15px;
+    }
+    
+    .redes li img{
+        width: 20px;
+    }
+    
+    /* main descripción */
+    
+    .descripcion{
+        height: 965px;
+    }
+    
+    .imagenes{
+        padding-top: 20px;
+        padding-right: 40px;
+        width: 100%;
+        height: 450px;
+    }
+    
+    .familia{
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 55%;
+        height: 42%;
+    }
+    
+    .texto h2{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .texto p{
+        padding: 4px 25px 2px 25px;
+        text-align: justify;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .familia{
+        padding-left: 50px;
+    }
+    
+    .collar{
+        padding-right: 70px;
+    }
+    
+    /**** cards index ****/
+    
+    
+    .cards{
+        height: 1100px;
+        gap: 30px 20px;
+        padding: 0 20px 0 20px;
+    }
+    
+
+    
+    /*** call to action ***/
+    
+    .call-to-action{
+        height: 100px;
+    }
+    
+    .call-to-action div h2{
+        font-size: 25px; 
+        padding: 18px 0 3px 0;
+    }
+    
+    .call-to-action div button{
+        
+        font-size: 24px;
+        padding: 6px 10px 6px 10px;
+        border-radius: 22px;
+    }
+    
+    
+    /*** footer ***/
+    
+    .footer-principal{
+        height: 75px;
+    }
+    
+    .redes-footer{
+        padding: 18px 0 0 20px;
+    }
+    
+    .redes-footer li{
+        padding: 12px;
+    }
+    
+    .redes-footer li img{
+        width: 20px;
+    }
+    
+    .logo-footer{
+        padding: 10px 20px 0 0;
+        
+    }
+    
+    .logo-footer img{
+        width: 160px;
+    }
+    
+    .copy{
+        height: 25px;
+    }
+    
+    .copy p{
+        padding-top: 3px;
+        font-size: 14px;
+    }
+
+    /**********/
+    
+    .frase{
+        height: 48px;
+    }
+    
+    .frase p{
+        font-size: 24px;
+    }
+    
+    .cards-accesorios{
+        height: 1150px;
+        gap: 60px 8px;
+        
+    }
+    
+    .carta p{
+        font-size: 20px;
+    }
+    
+    /***footer***/
+    
+    .footer-principal-2{
+        height: 75px;
+    }
+
+}

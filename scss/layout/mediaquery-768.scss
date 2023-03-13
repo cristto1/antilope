@@ -1,0 +1,212 @@
+/* Responsive 768 */
+
+@media (min-width: 768px){
+
+    /* header */
+
+    header{
+        height: 115px;
+    }
+    .baner{
+        height: 115px;
+    }
+
+
+    /* menu hamburguesa a nav común */
+
+    #menu-check:not(:checked) ~nav{
+        display: inline;
+    }
+    
+    #menu-check:checked ~ nav{
+        display: inline;
+    }
+    
+    #menu-check{
+        display: none;
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+    #menu-cerrar{
+        display: none;
+    }
+    
+    .baner nav{
+        background-color: transparent;
+        width: 100%;
+        padding-top: 87px;
+
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+    }
+
+    .baner nav ul li{
+        font-size: 11px;
+        font-family: 'Bona Nova', serif;
+        font-weight: bold;
+    }
+
+    /**** logo y redes****/
+
+    .logo{
+        width: 50%;
+        height: 88%;
+    }
+
+    .redes{
+        left: 90%;
+
+        li{
+            padding: 6px;
+        }
+        
+        img{
+            width: 14px;
+        }
+    }
+
+    
+    /* main descripción */
+
+    .descripcion{
+        height: 800px;
+    }
+
+    .imagenes{
+        padding-top: 5px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .familia{
+        width: 65%;
+        height: 43%;
+        margin-left: 10px;
+    }
+
+    .texto{
+        h2{
+            margin-top: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 13px;
+            padding: 4px 25px 2px 25px;
+            text-align: justify;
+            margin-top: 8px;
+        }
+    }
+
+
+    /**** cards index ****/
+
+    .cards{
+    height: 950px;
+    gap: 25px 10px;
+    }
+
+    .carta p{
+        font-size: 15px;
+    }
+
+    /* call to action */
+
+    .call-to-action{
+        height: 80px;
+        
+    }
+
+    .call-to-action div h2{
+        font-size: 16px; 
+        padding: 15px 0 6px 0;
+    }
+    
+    .call-to-action div button{
+        
+        font-size: 18px;
+        padding: 3px 7px 3px 7px;
+    }
+
+
+    /***** footer *****/
+
+    .footer-principal{
+        height: 60px;
+
+        li{
+            padding: 6px;
+        }
+
+        img{
+            width: 14px;
+        }
+    }
+
+    .redes-footer{
+        padding: 18px 0 0 12px;
+    }
+    
+
+    .logo-footer{
+        padding: 8px 12px 0 0;
+        justify-content: right;
+
+        img{
+            width: 120px;
+        }
+    }
+    
+    .copy{
+        width: 100%;
+        height: 15px;
+
+        p{
+            padding-top: 3px;
+            font-size: 9px;
+        }    
+    }
+    
+
+    /**** Frase accesorios ****/
+
+    .frase{
+        width: 100%;
+        height: 32px;
+
+        p{
+            font-size: 15px;
+            padding-top: 9px;
+        }
+    }
+    
+
+    /**** cards accesorios ****/
+
+    .cards-accesorios{
+        height: 750px;
+        gap: 45px 5px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr) 2px;
+        grid-template-areas: 
+        "carta1 carta1 carta2 carta2 carta3 carta3"
+        "carta1 carta1 carta2 carta2 carta3 carta3"
+        "carta4 carta4 carta5 carta5 carta6 carta6"
+        "carta4 carta4 carta5 carta5 carta6 carta6"
+    }
+    
+
+    /**** footer accesorios ****/
+
+    .footer-principal-2{
+        height: 60px;
+    }
+}
+

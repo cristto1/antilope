@@ -1,0 +1,55 @@
+/****responsive 1440****/
+
+@media (min-width: 1440px){
+
+    
+    .logo{
+        width: 50%;
+        height: 88%;
+        
+    }
+    
+    .familia{
+        padding-top: 6px;
+        width: 50%;
+        height: 38%;
+    }
+    
+    .collar{
+        padding-right: 150px;
+        width: 105%;
+        height: 440px;
+        
+    }
+
+    .descripcion{
+        height: 1130px;
+    }
+
+    
+    .texto h2{
+        margin-top: 25px;
+        font-size: 30px;
+    }
+    
+    .texto p{
+        padding: 4px 25px 2px 25px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+
+    // cards index
+
+    .cards{
+        height: 1300px;
+        gap: 38px 25px;
+        }
+
+        // cards accesorios
+
+    .cards-accesorios{
+        height: 1450px;
+        gap: 70px 18px;
+        }
+}

@@ -1,0 +1,616 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #fff5eb;
+  width: 100%;
+  height: 70px; }
+
+.baner {
+  position: relative;
+  background-image: url(../assets/image/libro-2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70px; }
+
+.logo {
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  left: 25%;
+  top: 2px; }
+
+#menu-check:not(:checked) ~ nav {
+  display: none; }
+
+#menu-check:checked ~ nav {
+  display: block; }
+
+#menu-check {
+  display: none; }
+
+#menu {
+  position: relative;
+  color: black;
+  background-color: transparent;
+  font-size: 1em;
+  top: 2px;
+  left: 20px;
+  z-index: 9999; }
+
+#menu-cerrar {
+  display: none; }
+
+#menu-check:checked ~ label #menu-abrir {
+  display: none; }
+
+#menu-check:checked ~ label #menu-cerrar {
+  display: block; }
+
+.baner nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 13%;
+  background-color: #e8dbc5;
+  padding-top: 1px;
+  padding-right: 20px;
+  opacity: 90%; }
+
+.baner nav ul {
+  list-style: none;
+  padding: 15px 0 0 20px; }
+
+.baner nav ul li {
+  padding: 1px;
+  font-size: 7px;
+  font-family: 'Bona Nova', serif; }
+
+.baner nav ul a {
+  color: black;
+  text-decoration: none; }
+
+/* redes */
+.redes {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  top: 5px;
+  left: 85%; }
+
+.redes li {
+  padding: 2px; }
+
+.redes li img {
+  width: 12px; }
+
+.descripcion {
+  position: relative;
+  width: 100%;
+  height: 510px;
+  background-color: #fff5eb; }
+
+.imagenes {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "familia familia collar collar" "familia familia collar collar"; }
+
+.carta5:hover {
+  transform: scale(0.9); }
+
+.carta6:hover {
+  transform: scale(0.9); }
+
+.familia {
+  grid-area: familia;
+  position: absolute;
+  width: 60%;
+  height: 30%;
+  left: 10px;
+  padding: 15px 0 15px 15px; }
+
+.collar {
+  grid-area: collar;
+  padding: 5px 30px 5px 0;
+  width: 100%;
+  height: 100%; }
+
+.texto h2 {
+  font-family: 'Bona Nova', serif;
+  font-size: 15px;
+  text-align: center; }
+
+.texto p {
+  font-family: 'Bona Nova', serif;
+  font-size: 9px;
+  padding: 3px 10px 3px 10px;
+  text-align: justify; }
+
+.cards {
+  width: 100%;
+  height: 500px;
+  background-color: #fff2e5;
+  gap: 15px 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr) 2px;
+  grid-template-areas: "carta1 carta1 carta2 carta2" "carta1 carta1 carta2 carta2" "carta3 carta3 carta4 carta4" "carta3 carta3 carta4 carta4"; }
+
+.carta1 {
+  grid-area: carta1; }
+
+.carta2 {
+  grid-area: carta2; }
+
+.carta3 {
+  grid-area: carta3; }
+
+.carta4 {
+  grid-area: carta4; }
+
+.carta1:hover {
+  transform: scale(0.9); }
+
+.carta2:hover {
+  transform: scale(0.9); }
+
+.carta3:hover {
+  transform: scale(0.9); }
+
+.carta4:hover {
+  transform: scale(0.9); }
+
+.carta img {
+  width: 100%;
+  height: 100%; }
+
+.carta p {
+  text-align: center;
+  font-family: 'Bona Nova', serif;
+  font-size: 9px; }
+
+.call-to-action {
+  width: 100%;
+  height: 60px;
+  background-color: #fff5eb;
+  background-image: url(../assets/image/vela-1.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 90%; }
+  .call-to-action div {
+    text-align: center;
+    position: relative; }
+  .call-to-action h2 {
+    font-size: 13px;
+    font-family: 'Bona Nova', serif;
+    padding: 13px 0 2px 0; }
+
+.call-to-action button {
+  font-family: 'Bona Nova', serif;
+  font-size: 16px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #e8dbc5;
+  box-shadow: 1px 1px 10px #e8dbc5;
+  background-color: #fff5eb; }
+
+.call-to-action button:hover {
+  background-color: #fff2e5; }
+
+.footer-principal {
+  background-color: #fff2e5;
+  width: 100%;
+  height: 40px; }
+
+.redes-footer {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  padding: 9px 0 0 10px; }
+  .redes-footer li {
+    padding: 5px; }
+  .redes-footer img {
+    width: 13px; }
+
+.logo-footer {
+  padding: 5px 5px 0 0;
+  display: flex;
+  justify-content: right; }
+  .logo-footer img {
+    width: 80px; }
+
+.copy {
+  width: 100%;
+  height: 13px;
+  background-color: #e8dbc5; }
+  .copy p {
+    padding-top: 2px;
+    text-align: center;
+    font-family: 'Bona Nova', serif;
+    font-size: 7px; }
+
+.footer-principal-2 {
+  background-color: #fff5eb;
+  width: 100%;
+  height: 40px; }
+
+.frase {
+  width: 100%;
+  height: 20px;
+  background-color: #fff2e5; }
+  .frase p {
+    font-family: 'Bona Nova', serif;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 6px;
+    font-style: normal; }
+
+.carta p {
+  font-family: 'Bona Nova', serif; }
+
+.cards-accesorios {
+  width: 100%;
+  height: 650px;
+  background-color: #fff2e5;
+  gap: 28px 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr) 2px;
+  grid-template-areas: "carta1 carta1 carta2 carta2" "carta1 carta1 carta2 carta2" "carta3 carta3 carta4 carta4" "carta3 carta3 carta4 carta4" "carta5 carta5 carta6 carta6" "carta5 carta5 carta6 carta6"; }
+
+.carta1 {
+  grid-area: carta1; }
+
+.carta2 {
+  grid-area: carta2; }
+
+.carta3 {
+  grid-area: carta3; }
+
+.carta4 {
+  grid-area: carta4; }
+
+.carta5 {
+  grid-area: carta5; }
+
+.carta6 {
+  grid-area: carta6; }
+
+/* Responsive 768 */
+@media (min-width: 768px) {
+  /* header */
+  header {
+    height: 115px; }
+  .baner {
+    height: 115px; }
+  /* menu hamburguesa a nav común */
+  #menu-check:not(:checked) ~ nav {
+    display: inline; }
+  #menu-check:checked ~ nav {
+    display: inline; }
+  #menu-check {
+    display: none; }
+  #menu {
+    display: none; }
+  #menu-cerrar {
+    display: none; }
+  .baner nav {
+    background-color: transparent;
+    width: 100%;
+    padding-top: 87px; }
+    .baner nav ul {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none; }
+  .baner nav ul li {
+    font-size: 11px;
+    font-family: 'Bona Nova', serif;
+    font-weight: bold; }
+  /**** logo y redes****/
+  .logo {
+    width: 50%;
+    height: 88%; }
+  .redes {
+    left: 90%; }
+    .redes li {
+      padding: 6px; }
+    .redes img {
+      width: 14px; }
+  /* main descripción */
+  .descripcion {
+    height: 800px; }
+  .imagenes {
+    padding-top: 5px;
+    width: 100%;
+    height: 350px; }
+  .familia {
+    width: 65%;
+    height: 43%;
+    margin-left: 10px; }
+  .texto h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center; }
+  .texto p {
+    font-size: 13px;
+    padding: 4px 25px 2px 25px;
+    text-align: justify;
+    margin-top: 8px; }
+  /**** cards index ****/
+  .cards {
+    height: 950px;
+    gap: 25px 10px; }
+  .carta p {
+    font-size: 15px; }
+  /* call to action */
+  .call-to-action {
+    height: 80px; }
+  .call-to-action div h2 {
+    font-size: 16px;
+    padding: 15px 0 6px 0; }
+  .call-to-action div button {
+    font-size: 18px;
+    padding: 3px 7px 3px 7px; }
+  /***** footer *****/
+  .footer-principal {
+    height: 60px; }
+    .footer-principal li {
+      padding: 6px; }
+    .footer-principal img {
+      width: 14px; }
+  .redes-footer {
+    padding: 18px 0 0 12px; }
+  .logo-footer {
+    padding: 8px 12px 0 0;
+    justify-content: right; }
+    .logo-footer img {
+      width: 120px; }
+  .copy {
+    width: 100%;
+    height: 15px; }
+    .copy p {
+      padding-top: 3px;
+      font-size: 9px; }
+  /**** Frase accesorios ****/
+  .frase {
+    width: 100%;
+    height: 32px; }
+    .frase p {
+      font-size: 15px;
+      padding-top: 9px; }
+  /**** cards accesorios ****/
+  .cards-accesorios {
+    height: 750px;
+    gap: 45px 5px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr) 2px;
+    grid-template-areas: "carta1 carta1 carta2 carta2 carta3 carta3" "carta1 carta1 carta2 carta2 carta3 carta3" "carta4 carta4 carta5 carta5 carta6 carta6" "carta4 carta4 carta5 carta5 carta6 carta6"; }
+  /**** footer accesorios ****/
+  .footer-principal-2 {
+    height: 60px; } }
+
+/**** responsive 1024 ****/
+@media (min-width: 1024px) {
+  header {
+    height: 155px; }
+  .baner {
+    height: 155px; }
+    .baner nav {
+      width: 100%;
+      padding-top: 120px; }
+  .baner nav ul li {
+    font-size: 16px; }
+  /****logo y redes****/
+  .logo {
+    width: 50%;
+    height: 88%; }
+  .redes {
+    left: 88%; }
+  .redes li {
+    padding: 15px; }
+  .redes li img {
+    width: 20px; }
+  /* main descripción */
+  .descripcion {
+    height: 965px; }
+  .imagenes {
+    padding-top: 20px;
+    padding-right: 40px;
+    width: 100%;
+    height: 450px; }
+  .familia {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 55%;
+    height: 42%; }
+  .texto h2 {
+    margin-top: 10px;
+    font-size: 25px; }
+  .texto p {
+    padding: 4px 25px 2px 25px;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 15px; }
+  .familia {
+    padding-left: 50px; }
+  .collar {
+    padding-right: 70px; }
+  /**** cards index ****/
+  .cards {
+    height: 1100px;
+    gap: 30px 20px;
+    padding: 0 20px 0 20px; }
+  /*** call to action ***/
+  .call-to-action {
+    height: 100px; }
+  .call-to-action div h2 {
+    font-size: 25px;
+    padding: 18px 0 3px 0; }
+  .call-to-action div button {
+    font-size: 24px;
+    padding: 6px 10px 6px 10px;
+    border-radius: 22px; }
+  /*** footer ***/
+  .footer-principal {
+    height: 75px; }
+  .redes-footer {
+    padding: 18px 0 0 20px; }
+  .redes-footer li {
+    padding: 12px; }
+  .redes-footer li img {
+    width: 20px; }
+  .logo-footer {
+    padding: 10px 20px 0 0; }
+  .logo-footer img {
+    width: 160px; }
+  .copy {
+    height: 25px; }
+  .copy p {
+    padding-top: 3px;
+    font-size: 14px; }
+  /**********/
+  .frase {
+    height: 48px; }
+  .frase p {
+    font-size: 24px; }
+  .cards-accesorios {
+    height: 1150px;
+    gap: 60px 8px; }
+  .carta p {
+    font-size: 20px; }
+  /***footer***/
+  .footer-principal-2 {
+    height: 75px; } }
+
+/**** responsive 1250 ****/
+@media (min-width: 1250px) {
+  header {
+    height: 176px; }
+  .baner {
+    height: 176px; }
+  .baner nav {
+    width: 100%;
+    padding-top: 140px; }
+  .baner nav ul li {
+    font-size: 18px; }
+  /****logo y redes****/
+  .logo {
+    width: 50%;
+    height: 88%;
+    left: 25%; }
+  .redes {
+    left: 91%; }
+  .redes li {
+    padding: 15px; }
+  .redes li img {
+    width: 22px; }
+  /* main descripción */
+  .descripcion {
+    height: 925px; }
+  .imagenes {
+    padding-top: 20px;
+    padding-right: 75px;
+    width: 100%;
+    height: 450px; }
+  .familia {
+    margin-left: 70px;
+    width: 55%;
+    height: 45%; }
+  .texto h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px; }
+  .texto p {
+    padding: 4px 25px 2px 25px;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 15px; }
+  .familia {
+    padding-left: 50px; }
+  .collar {
+    padding-right: 70px; }
+  /**** cards index ****/
+  .cards {
+    height: 1200px;
+    gap: 38px 25px; }
+  .carta p {
+    font-size: 20px; }
+  /*** call to action ***/
+  .call-to-action {
+    height: 130px; }
+  .call-to-action div h2 {
+    font-size: 28px;
+    padding: 25px 0 8px 0; }
+  .call-to-action div button {
+    font-size: 26px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 22px; }
+  /*** footer ***/
+  .footer-principal {
+    height: 75px; }
+  .redes-footer {
+    padding: 18px 0 0 20px; }
+  .redes-footer li {
+    padding: 12px; }
+  .redes-footer li img {
+    width: 20px; }
+  .logo-footer {
+    padding: 10px 20px 0 0; }
+  .logo-footer img {
+    width: 160px; }
+  .copy {
+    height: 25px; }
+  .copy p {
+    padding-top: 3px;
+    font-size: 14px; }
+  /**********/
+  .frase {
+    height: 48px; }
+  .frase p {
+    font-size: 24px; }
+  .cards-accesorios {
+    height: 1300px;
+    gap: 70px 13px; }
+  .carta p {
+    font-size: 26px; }
+  /***footer***/
+  .footer-principal-2 {
+    height: 75px; } }
+
+/****responsive 1440****/
+@media (min-width: 1440px) {
+  .logo {
+    width: 50%;
+    height: 88%; }
+  .familia {
+    padding-top: 6px;
+    width: 50%;
+    height: 38%; }
+  .collar {
+    padding-right: 150px;
+    width: 105%;
+    height: 440px; }
+  .descripcion {
+    height: 1130px; }
+  .texto h2 {
+    margin-top: 25px;
+    font-size: 30px; }
+  .texto p {
+    padding: 4px 25px 2px 25px;
+    margin-top: 10px;
+    font-size: 22px; }
+  .cards {
+    height: 1300px;
+    gap: 38px 25px; }
+  .cards-accesorios {
+    height: 1450px;
+    gap: 70px 18px; } }

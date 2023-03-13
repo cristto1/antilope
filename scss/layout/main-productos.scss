@@ -1,0 +1,58 @@
+.frase{
+    width: 100%;
+    height: 20px;
+    background-color: #fff2e5;
+
+    p{
+        font-family: 'Bona Nova', serif;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 6px;
+        font-style: normal;
+    }
+}
+
+.carta p{
+    font-family: 'Bona Nova', serif;
+}
+
+.cards-accesorios{
+    width: 100%;
+    height: 650px;
+    background-color: #fff2e5;
+    gap: 28px 2px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr) 2px;
+    grid-template-areas: 
+    "carta1 carta1 carta2 carta2"
+    "carta1 carta1 carta2 carta2"
+    "carta3 carta3 carta4 carta4"
+    "carta3 carta3 carta4 carta4"
+    "carta5 carta5 carta6 carta6"
+    "carta5 carta5 carta6 carta6"
+}
+
+.carta1{
+    grid-area: carta1;
+}
+
+.carta2{
+    grid-area: carta2;
+}
+
+.carta3{
+    grid-area: carta3;
+}
+
+.carta4{
+    grid-area: carta4;
+}
+
+.carta5{
+    grid-area: carta5;
+}
+
+.carta6{
+    grid-area: carta6;
+}
