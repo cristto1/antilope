@@ -58,9 +58,9 @@ header {
   width: 100%;
   height: 13%;
   background-color: #e8dbc5;
-  padding-top: 1px;
+  padding-top: 2px;
   padding-right: 20px;
-  opacity: 80%; }
+  opacity: 90%; }
 
 .baner nav ul {
   list-style: none;
@@ -127,13 +127,15 @@ header {
 .texto h2 {
   font-family: 'Bona Nova', serif;
   font-size: 15px;
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 .texto p {
   font-family: 'Bona Nova', serif;
   font-size: 9px;
   padding: 3px 10px 3px 10px;
-  text-align: justify; }
+  text-align: justify;
+  color: black; }
 
 .cards {
   width: 100%;
@@ -176,7 +178,8 @@ header {
 .carta p {
   text-align: center;
   font-family: 'Bona Nova', serif;
-  font-size: 9px; }
+  font-size: 9px;
+  color: black; }
 
 .call-to-action {
   width: 100%;
@@ -253,10 +256,12 @@ header {
     text-align: center;
     font-size: 10px;
     padding-top: 6px;
-    font-style: normal; }
+    font-style: normal;
+    color: black; }
 
 .carta p {
-  font-family: 'Bona Nova', serif; }
+  font-family: 'Bona Nova', serif;
+  color: black; }
 
 .cards-accesorios {
   width: 100%;
