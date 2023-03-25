@@ -1,3 +1,5 @@
+@import "../scss/utilities/variables.scss";
+@import "../scss/utilities/mixins.scss";
 @import "../scss/base/reset.scss";
 @import "../scss/layout/header.scss";
 @import "../scss/layout/main-index.scss";
@@ -6,6 +8,12 @@
 @import "../scss/components/buttons.scss";
 @import "../scss/layout/footer.scss";
 @import "../scss/layout/main-productos.scss";
+
+// mediaquerry
+
+@import "../scss/layout/mediaquery-280.scss";
+@import "../scss/layout/mediaquery-375.scss";
+@import "../scss/layout/mediaquery-425.scss";
 @import "../scss/layout/mediaquery-768.scss";
 @import "../scss/layout/mediaquery-1024.scss";
 @import "../scss/layout/mediaquery-1250.scss";

@@ -10,11 +10,11 @@ header {
   height: 75px; }
 
 .logo {
+  left: 15px;
+  top: 2px;
   position: absolute;
   width: 65%;
-  height: 90%;
-  left: 15%;
-  top: 2px; }
+  height: 90%; }
 
 #menu-check:not(:checked) ~ nav {
   display: none; }
@@ -26,12 +26,12 @@ header {
   display: none; }
 
 #menu {
+  left: 20px;
+  top: 2px;
   position: relative;
   color: black;
   background-color: transparent;
   font-size: 1em;
-  top: 2px;
-  left: 20px;
   z-index: 9999; }
 
 #menu-cerrar {
@@ -53,10 +53,7 @@ header {
 
 .baner nav {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 13%;
   background-color: #e8dbc5;
   padding-top: 2px;
   padding-right: 20px;
@@ -78,11 +75,11 @@ header {
 
 /* redes */
 .redes {
+  left: 85%;
+  top: 5px;
   position: absolute;
   display: flex;
-  list-style: none;
-  top: 5px;
-  left: 85%; }
+  list-style: none; }
 
 .redes li {
   padding: 5px; }
@@ -111,6 +108,7 @@ header {
   transform: scale(0.9); }
 
 .familia {
+  object-fit: cover;
   grid-area: familia;
   position: absolute;
   width: 60%;
@@ -119,6 +117,7 @@ header {
   padding: 15px 0 15px 15px; }
 
 .collar {
+  object-fit: cover;
   grid-area: collar;
   padding: 5px 30px 5px 0;
   width: 100%;
@@ -291,6 +290,58 @@ header {
 .carta6 {
   grid-area: carta6; }
 
+/* Responsive 280 */
+@media (min-width: 280px) {
+  .descripcion {
+    height: 550px; }
+  .texto h2 {
+    margin-top: 8px;
+    font-size: 12px; }
+  .texto p {
+    font-size: 8.5px; }
+  .redes li {
+    padding: 0 5px 0 5px; }
+  .redes li img {
+    width: 11px; }
+  .cards {
+    height: 450px; } }
+
+/* Responsive 375 */
+@media (min-width: 375px) {
+  .descripcion {
+    height: 473px; }
+  .texto h2 {
+    margin-top: 7px; }
+  .texto p {
+    font-size: 9.1px; }
+  .familia {
+    width: 60%;
+    height: 32%;
+    margin: 4px 0 0 10px; }
+  .collar {
+    padding-right: 40px;
+    width: 105%;
+    height: 105%; } }
+
+/* Responsive 425 */
+@media (min-width: 425px) {
+  .descripcion {
+    height: 516px; }
+  .texto h2 {
+    margin-top: 12px; }
+  .texto p {
+    font-size: 9.5px; }
+  .familia {
+    width: 60%;
+    height: 32%;
+    margin: 2px 0 0 9px; }
+  .collar {
+    padding-right: 45px;
+    width: 110%;
+    height: 110%; }
+  .redes li img {
+    width: 14px; } }
+
 /* Responsive 768 */
 @media (min-width: 768px) {
   /* header */
@@ -318,22 +369,24 @@ header {
       justify-content: space-evenly;
       list-style: none; }
   .baner nav ul li {
-    font-size: 11px;
+    font-size: 12px;
     font-family: 'Bona Nova', serif;
     font-weight: bold; }
   /**** logo y redes****/
   .logo {
     width: 50%;
-    height: 88%; }
+    height: 86%;
+    left: 25%;
+    top: 1px; }
   .redes {
     left: 90%; }
     .redes li {
-      padding: 6px; }
-    .redes img {
-      width: 14px; }
+      padding: 8px; }
+  .redes li img {
+    width: 16px; }
   /* main descripción */
   .descripcion {
-    height: 800px; }
+    height: 825px; }
   .imagenes {
     padding-top: 5px;
     width: 100%;
@@ -343,7 +396,7 @@ header {
     height: 43%;
     margin-left: 10px; }
   .texto h2 {
-    margin-top: 10px;
+    margin-top: 36px;
     font-size: 20px;
     text-align: center; }
   .texto p {
@@ -370,16 +423,17 @@ header {
   .footer-principal {
     height: 60px; }
     .footer-principal li {
-      padding: 6px; }
+      padding: 8px; }
     .footer-principal img {
-      width: 14px; }
+      width: 16px; }
   .redes-footer {
     padding: 18px 0 0 12px; }
   .logo-footer {
-    padding: 8px 12px 0 0;
+    padding: 6px 12px 0 0;
     justify-content: right; }
     .logo-footer img {
-      width: 120px; }
+      width: 18%;
+      height: 9%; }
   .copy {
     width: 100%;
     height: 15px; }
@@ -412,7 +466,7 @@ header {
     height: 155px; }
     .baner nav {
       width: 100%;
-      padding-top: 120px; }
+      padding-top: 122px; }
   .baner nav ul li {
     font-size: 16px; }
   /****logo y redes****/
@@ -424,10 +478,10 @@ header {
   .redes li {
     padding: 15px; }
   .redes li img {
-    width: 20px; }
+    width: 23px; }
   /* main descripción */
   .descripcion {
-    height: 965px; }
+    height: 1080px; }
   .imagenes {
     padding-top: 20px;
     padding-right: 40px;
@@ -439,13 +493,13 @@ header {
     width: 55%;
     height: 42%; }
   .texto h2 {
-    margin-top: 10px;
-    font-size: 25px; }
+    margin-top: 50px;
+    font-size: 32px; }
   .texto p {
     padding: 4px 25px 2px 25px;
     text-align: justify;
     margin-top: 10px;
-    font-size: 15px; }
+    font-size: 17px; }
   .familia {
     padding-left: 50px; }
   .collar {
@@ -471,13 +525,14 @@ header {
   .redes-footer {
     padding: 18px 0 0 20px; }
   .redes-footer li {
-    padding: 12px; }
+    padding: 15px; }
   .redes-footer li img {
-    width: 20px; }
+    width: 23px; }
   .logo-footer {
-    padding: 10px 20px 0 0; }
+    padding: 6px 20px 0 0; }
   .logo-footer img {
-    width: 160px; }
+    width: 18%;
+    height: 9%; }
   .copy {
     height: 25px; }
   .copy p {
@@ -500,50 +555,52 @@ header {
 /**** responsive 1250 ****/
 @media (min-width: 1250px) {
   header {
-    height: 176px; }
+    height: 180px; }
   .baner {
-    height: 176px; }
+    height: 180px; }
   .baner nav {
     width: 100%;
-    padding-top: 140px; }
+    padding-top: 145px; }
   .baner nav ul li {
-    font-size: 18px; }
+    font-size: 19px; }
   /****logo y redes****/
   .logo {
-    width: 50%;
+    width: 51%;
     height: 88%;
     left: 25%; }
   .redes {
-    left: 91%; }
+    left: 88%; }
   .redes li {
-    padding: 15px; }
+    padding: 17px; }
   .redes li img {
-    width: 22px; }
+    width: 25px; }
   /* main descripción */
   .descripcion {
-    height: 925px; }
+    height: 1100px; }
   .imagenes {
     padding-top: 20px;
     padding-right: 75px;
     width: 100%;
     height: 450px; }
   .familia {
-    margin-left: 70px;
+    margin-left: 45px;
     width: 55%;
-    height: 45%; }
+    height: 38%; }
   .texto h2 {
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
-    font-size: 25px; }
+    font-size: 30px; }
   .texto p {
     padding: 4px 25px 2px 25px;
     text-align: justify;
     margin-top: 10px;
-    font-size: 15px; }
+    font-size: 19px; }
   .familia {
+    margin-top: 22px;
     padding-left: 50px; }
   .collar {
-    padding-right: 70px; }
+    padding-right: 70px;
+    height: 110%; }
   /**** cards index ****/
   .cards {
     height: 1200px;
@@ -564,15 +621,16 @@ header {
   .footer-principal {
     height: 75px; }
   .redes-footer {
-    padding: 18px 0 0 20px; }
+    padding: 10px 0 0 20px; }
   .redes-footer li {
-    padding: 12px; }
+    padding: 17px; }
   .redes-footer li img {
-    width: 20px; }
+    width: 25px; }
   .logo-footer {
-    padding: 10px 20px 0 0; }
+    padding: 5px 20px 0 0; }
   .logo-footer img {
-    width: 160px; }
+    width: 16%;
+    height: 8%; }
   .copy {
     height: 25px; }
   .copy p {
@@ -594,22 +652,38 @@ header {
 
 /****responsive 1440****/
 @media (min-width: 1440px) {
+  header {
+    height: 188px; }
+  .baner {
+    height: 188px; }
+  .baner nav {
+    width: 100%;
+    padding-top: 150px; }
+  .baner nav ul li {
+    font-size: 21px; }
+  /****logo y redes****/
   .logo {
-    width: 50%;
+    width: 52%;
     height: 88%; }
-  .familia {
-    padding-top: 6px;
-    width: 50%;
-    height: 38%; }
-  .collar {
-    padding-right: 150px;
-    width: 105%;
-    height: 440px; }
+  .redes {
+    left: 89%; }
+  .redes li {
+    padding: 21px; }
+  .redes li img {
+    width: 28px; }
+  /* main descripción */
   .descripcion {
-    height: 1130px; }
+    height: 1270px; }
+  .familia {
+    margin: 20px 0 0 100px;
+    width: 54%;
+    height: 41%; }
+  .collar {
+    height: 130%;
+    padding-right: 90px; }
   .texto h2 {
-    margin-top: 25px;
-    font-size: 30px; }
+    margin-top: 140px;
+    font-size: 40px; }
   .texto p {
     padding: 4px 25px 2px 25px;
     margin-top: 10px;
@@ -619,4 +693,23 @@ header {
     gap: 38px 25px; }
   .cards-accesorios {
     height: 1450px;
-    gap: 70px 18px; } }
+    gap: 70px 18px; }
+  /*** footer ***/
+  .footer-principal {
+    height: 90px; }
+  .redes-footer {
+    padding: 14px 0 0 20px; }
+  .redes-footer li {
+    padding: 18px; }
+  .redes-footer li img {
+    width: 27px; }
+  .logo-footer {
+    padding: 5px 20px 0 0; }
+  .copy {
+    height: 29px; }
+  .copy p {
+    padding-top: 4px;
+    font-size: 16px; }
+  /**********/
+  .footer-principal-2 {
+    height: 90px; } }

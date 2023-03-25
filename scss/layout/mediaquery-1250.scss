@@ -3,46 +3,46 @@
 @media (min-width: 1250px){
     
     header{
-        height: 176px;
+        height: 180px;
     }
 
     .baner{
-        height: 176px;
+        height: 180px;
     }
 
     .baner nav{
         width: 100%;
-        padding-top: 140px;
+        padding-top: 145px;
     }
     
     .baner nav ul li{
-        font-size: 18px;
+        font-size: 19px;
     }
 
     /****logo y redes****/
 
     .logo{
-        width: 50%;
+        width: 51%;
         height: 88%;
         left: 25%;
     }
     
     .redes{
-        left: 91%;
+        left: 88%;
     }
 
     .redes li{
-        padding: 15px;
+        padding: 17px;
     }
     
     .redes li img{
-        width: 22px;
+        width: 25px;
     }
 
     /* main descripción */
 
     .descripcion{
-        height: 925px;
+        height: 1100px;
     }
 
     .imagenes{
@@ -53,31 +53,33 @@
     }
 
     .familia{
-        margin-left: 70px;
+        margin-left: 45px;
         width: 55%;
-        height: 45%;
+        height: 38%;
 
     }
 
     .texto h2{
-        margin-top: 10px;
+        margin-top: 50px;
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .texto p{
         padding: 4px 25px 2px 25px;
         text-align: justify;
         margin-top: 10px;
-        font-size: 15px;
+        font-size: 19px;
     }
 
     .familia{
+        margin-top: 22px;
         padding-left: 50px;
     }
 
     .collar{
         padding-right: 70px;
+        height: 110%;
     }
 
     /**** cards index ****/
@@ -118,24 +120,25 @@
     }
     
     .redes-footer{
-        padding: 18px 0 0 20px;
+        padding: 10px 0 0 20px;
     }
     
     .redes-footer li{
-        padding: 12px;
+        padding: 17px;
     }
     
     .redes-footer li img{
-        width: 20px;
+        width: 25px;
     }
     
     .logo-footer{
-        padding: 10px 20px 0 0;
+        padding: 5px 20px 0 0;
         
     }
     
     .logo-footer img{
-        width: 160px;
+        width: 16%;
+        height: 8%;
     }
     
     .copy{

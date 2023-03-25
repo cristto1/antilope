@@ -1,0 +1,29 @@
+/* Responsive 280 */
+
+@media (min-width: 280px){
+
+    .descripcion{
+        height: 550px;
+    }
+
+    .texto h2{
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .texto p{
+        font-size: 8.5px;
+    }
+
+    .redes li{
+        padding: 0 5px 0 5px;
+    }
+
+    .redes li img{
+        width: 11px;
+    }
+
+    .cards{
+        height: 450px;
+    }
+}

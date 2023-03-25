@@ -1,0 +1,34 @@
+/* Responsive 425 */
+
+@media (min-width: 425px){
+
+    .descripcion{
+        height: 516px;
+    }
+
+    .texto h2{
+        margin-top: 12px;
+    }
+
+    .texto p{
+        font-size: 9.5px;
+    }
+
+    .familia{
+        width: 60%;
+        height: 32%;
+        margin: 2px 0 0 9px;
+    }
+    
+    .collar{
+        padding-right: 45px;
+        width: 110%;
+        height: 110%;
+    }
+
+    // Redes
+
+    .redes li img{
+        width: 14px;
+    }
+}

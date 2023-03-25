@@ -2,34 +2,64 @@
 
 @media (min-width: 1440px){
 
+    header{
+        height: 188px;
+    }
+
+    .baner{
+        height: 188px;
+    }
+
+    .baner nav{
+        width: 100%;
+        padding-top: 150px;
+    }
     
+    .baner nav ul li{
+        font-size: 21px;
+    }
+
+    /****logo y redes****/
+
     .logo{
-        width: 50%;
+        width: 52%;
         height: 88%;
         
     }
     
+    .redes{
+        left: 89%;
+    }
+
+    .redes li{
+        padding: 21px;
+    }
+    
+    .redes li img{
+        width: 28px;
+    }
+
+    /* main descripción */
+
+    .descripcion{
+        height: 1270px;
+    }
+
     .familia{
-        padding-top: 6px;
-        width: 50%;
-        height: 38%;
+        margin: 20px 0 0 100px;
+        width: 54%;
+        height: 41%;
     }
     
     .collar{
-        padding-right: 150px;
-        width: 105%;
-        height: 440px;
+        height: 130%;
+        padding-right: 90px;
         
     }
-
-    .descripcion{
-        height: 1130px;
-    }
-
     
     .texto h2{
-        margin-top: 25px;
-        font-size: 30px;
+        margin-top: 140px;
+        font-size: 40px;
     }
     
     .texto p{
@@ -52,4 +82,42 @@
         height: 1450px;
         gap: 70px 18px;
         }
+
+        /*** footer ***/
+
+    .footer-principal{
+        height: 90px;
+    }
+    
+    .redes-footer{
+        padding: 14px 0 0 20px;
+    }
+    
+    .redes-footer li{
+        padding: 18px;
+    }
+    
+    .redes-footer li img{
+        width: 27px;
+    }
+    
+    .logo-footer{
+        padding: 5px 20px 0 0;
+        
+    }
+    
+    .copy{
+        height: 29px;
+    }
+    
+    .copy p{
+        padding-top: 4px;
+        font-size: 16px;
+    }
+
+    /**********/
+
+    .footer-principal-2{
+        height: 90px;
+    }
 }

@@ -1,16 +1,15 @@
 header{
     
-    background-color: #fff5eb;
+    background-color: $color1;
     width: 100%;
     height: 75px;
 }
 
 .logo{
+    @include position(15px, 2px);
     position: absolute;
     width: 65%;
     height: 90%;
-    left: 15%;
-    top: 2px;
 }
 
 #menu-check:not(:checked) ~nav{
@@ -26,12 +25,11 @@ header{
 }
 
 #menu{
+    @include position(20px, 2px);
     position: relative;
     color: black;
     background-color: transparent;
     font-size: 1em;
-    top: 2px;
-    left: 20px;
     z-index: 9999;
 }
 
@@ -59,11 +57,10 @@ header{
 
 .baner nav{
     position: absolute;
-    top: 0;
-    left: 0;
+    // top: 0;
+    // left: 0;
     width: 100%;
-    height: 13%;
-    background-color: #e8dbc5;
+    background-color: $color3;
     padding-top: 2px;
     padding-right: 20px;
     opacity: 90%;
@@ -90,12 +87,10 @@ header{
 /* redes */
 
 .redes{
+    @include position(85%, 5px);
     position: absolute;
     display: flex;
     list-style: none;
-    top: 5px;
-    left: 85%;
-    
 }
 
 .redes li{

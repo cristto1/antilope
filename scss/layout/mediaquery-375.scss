@@ -1,0 +1,30 @@
+/* Responsive 375 */
+
+@media (min-width: 375px){
+
+    .descripcion{
+        height: 473px;
+    }
+
+    .texto h2{
+        margin-top: 7px;
+    }
+
+    .texto p{
+        font-size: 9.1px;
+    }
+
+    .familia{
+        width: 60%;
+        height: 32%;
+        margin: 4px 0 0 10px;
+    }
+    
+    .collar{
+        padding-right: 40px;
+        width: 105%;
+        height: 105%;
+    }
+
+
+}
