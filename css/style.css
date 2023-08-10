@@ -75,9 +75,8 @@ header {
 
 /* redes */
 .redes {
-  left: 85%;
+  left: 0;
   top: 5px;
-  position: absolute;
   display: flex;
   list-style: none; }
 
@@ -85,7 +84,14 @@ header {
   padding: 5px; }
 
 .redes li img {
-  width: 12px; }
+  width: 10px; }
+
+/* carrito */
+#carrito {
+  left: 95%;
+  top: 14px;
+  position: absolute;
+  width: 30px; }
 
 .descripcion {
   position: relative;

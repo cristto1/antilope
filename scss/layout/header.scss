@@ -87,8 +87,7 @@ header{
 /* redes */
 
 .redes{
-    @include position(85%, 5px);
-    position: absolute;
+    @include position(0, 5px);
     display: flex;
     list-style: none;
 }
@@ -98,5 +97,13 @@ header{
 }
 
 .redes li img{
-    width: 12px;
+    width: 10px;
+}
+
+/* carrito */
+
+#carrito{
+    @include position(95%, 14px);
+    position: absolute;
+    width:30px;
 }
